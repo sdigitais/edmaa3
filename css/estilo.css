@@ -1,0 +1,108 @@
+nav {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(../images/digital-marketing.jpg);
+     display: flex;
+     padding: 1% 4%;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 9999;
+    }
+  .progress-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      background-color: #ffae00;
+      width: 0%;
+      transition: width 0.3s ease-out;
+  }
+  
+  nav img{
+    width: 120px;
+    margin-left: 100px;
+  }
+  
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  
+  }
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 8px 12px;
+    position: relative;
+    margin-right: 100px;
+  }
+  
+  .nav-links ul li a{
+      color: #000000;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  .nav-links ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffae00;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+  }
+  
+  .nav-links ul li a:hover::after{
+      width: 100%;
+  }
+
+  .text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.text-box h1{
+    font-size: 42px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+
+/*----footer----*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h5{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer .fa{
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 0;
+}
+
+
+
+
+
+  
