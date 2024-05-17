@@ -22,6 +22,10 @@ nav {
     transition: width 0.3s ease-out;
 }
 
+nav img{
+  width: 120px;
+}
+
 .nav-links{
     flex: 1;
     text-align: right;
