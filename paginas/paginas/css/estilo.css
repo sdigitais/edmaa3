@@ -1,27 +1,16 @@
-nav{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(../images/digital-marketing.jpg);
-     display: flex;
-     padding: 1% 4%;
-     justify-content: space-between;
-     align-items: center;
-     position: fixed;
-     width: 100%;
-     top: 0;
-     left: 0;
-     right: 0;
-     z-index: 9999;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
-    
-  .progress-bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    background-color: #ffae00;
-    width: 0%;
-    transition: width 0.3s ease-out;
+.header{
+  min-height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(248, 241, 241, 0.7), rgba(0, 0, 0, 0.7));
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-
 nav img{
   width: 120px;
 }
@@ -59,40 +48,44 @@ nav img{
   .nav-links ul li a:hover::after{
       width: 100%;
   }
-  .missao .texto {
+
+  .servico {
+    background-color: lightgray;
+  }
+  .servico .texto {
     flex: 1;
     text-align: justify;
     max-width: calc(100% - 250px);
     margin: 0 auto;
   }
-  
-  .missao .texto h2 {
-    margin-top: 0;
-    font-size: 36px;
-    font-weight: bold;
-    color: #11a7c9;
-    text-align: center;
+  .servicos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
   
-  .missao .texto p {
-    margin: 15px 0;
+.servicos  li {
+    margin: 10px 0;
+    padding-left: 10px;
+    position: relative;
     font-size: 17px;
-    line-height: 1.5;
-    color: #000000;
   }
   
-  .imagem-missao {
-    max-width: 42%;
-    padding-left: 50px;
-    margin-top: 15px;
+  .imagem-servico {
+    max-width: 40%;
+    padding-left: 5%;
+    margin-top: 7%;
     float: left;
   }
 
-/*----footer----*/
+  /*----footer----*/
 .footer{
+  background-color: black;
+  color: white;
     width: 100%;
     text-align: center;
     padding: 20px 0;
+    margin: 0px;
 }
 
 .footer h5{
@@ -107,8 +100,16 @@ nav img{
     padding: 10px 0;
 }
 
+.footer p {
+  margin: 0px;
+
+}
+
 
 
 
 
   
+
+
+
